@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo1", "Exo1\Exo1.csproj", "{A53BC0F4-BFA6-4FB3-B932-DFEE0BA9BBEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo2", "Exo2\Exo2.csproj", "{EE387496-336F-4179-AC58-C9DB27121C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo3", "Exo3\Exo3.csproj", "{32F3104B-15A4-4038-B4D2-BCD438C0AE19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{A53BC0F4-BFA6-4FB3-B932-DFEE0BA9BBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A53BC0F4-BFA6-4FB3-B932-DFEE0BA9BBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A53BC0F4-BFA6-4FB3-B932-DFEE0BA9BBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE387496-336F-4179-AC58-C9DB27121C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE387496-336F-4179-AC58-C9DB27121C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE387496-336F-4179-AC58-C9DB27121C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE387496-336F-4179-AC58-C9DB27121C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F3104B-15A4-4038-B4D2-BCD438C0AE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F3104B-15A4-4038-B4D2-BCD438C0AE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F3104B-15A4-4038-B4D2-BCD438C0AE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F3104B-15A4-4038-B4D2-BCD438C0AE19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

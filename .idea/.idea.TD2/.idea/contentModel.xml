@@ -16,6 +16,30 @@
           </e>
         </e>
       </e>
+      <e p="Exo2" t="IncludeRecursive">
+        <e p="Exo2.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Exo2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Exo3" t="IncludeRecursive">
+        <e p="Exo3.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Exo3.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="TD2.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
