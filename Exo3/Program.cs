@@ -12,7 +12,7 @@ namespace Exo3
         public Personnes(int Max)
         {
             this.m_Max = Max;
-            this.m_NbElt = 1;
+            this.m_NbElt = 0;
             this.m_Noms = new string[Max];
         }
 
@@ -45,12 +45,12 @@ namespace Exo3
             }
             set
             {
-                if (i <= this.m_NbElt)
+                if (i < this.m_NbElt)
                 {
                     this.m_Noms[i] = value;
                 }
                 
-                if (i == (this.m_NbElt + 1) && (i <= this.m_Max))
+                if (((i +1) > this.m_NbElt) && (i < this.m_Max))
                 {
                     this.m_NbElt++;
                     this.m_Noms[i] = value;
@@ -71,6 +71,7 @@ namespace Exo3
             Tableau[1] = "Ingrid";
             Tableau[2] = "Maria";
             Tableau[3] = "Ulrika";
+            Tableau[0] = "Kanade";
             Console.WriteLine(Tableau[1]);
             Console.WriteLine(Tableau["Maria"]);
             Console.WriteLine(Tableau[10]);
