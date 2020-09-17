@@ -92,25 +92,11 @@ namespace Exo1
             get{return tab[indiceElts];}
             set {tab[indiceElts] = value;}
         }
-
-        public int getInt(int indiceElts)
-        {
-            return this.tab[indiceElts];
-        }
-
-        public void setInt(int indiceElts, int valeur)
-        {
-            this.tab[indiceElts] = valeur;
-        }
-        
         static void Main(string[] args)
         {
             TabClasse userTab = new TabClasse(10);
 
             userTab.remplirTableau(5);
-            userTab.afficherTableau();
-            Console.WriteLine(userTab.getInt(4));
-            userTab.setInt(4, 42);
             userTab.afficherTableau();
             userTab.trierTableau();
             userTab.afficherTableau();
